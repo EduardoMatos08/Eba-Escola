@@ -1,0 +1,156 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+head {
+    display: none;
+}
+
+script {
+    display: none;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #e6e5e5;
+}
+
+#logo-title {
+    display: flex;
+    gap: 10px;
+}
+
+#logo-aula-eba {
+    width: 55px;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#void {
+    height: 12vh;
+    width: 100%;
+}
+
+#subtitle {
+    margin: 50px 0 25px 0;
+}
+
+a {
+    cursor: pointer;
+    color: #000000e8;
+    text-decoration: none;
+    font-weight: 600;
+    font-weight: 600;
+}
+
+#middle-link {
+    margin: 0 20px;
+}
+
+.section-sites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1ed760;
+    margin: 25px 0;
+    height: 400px;
+    width: 60%;
+    border: solid #000000;
+    border-radius: 60px;
+    padding: 5%;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#spotify-logo {
+    height: 100px;
+    border: solid #000000;
+    border-radius: 50%;
+}
+
+#favorite-musics {
+    margin-left: 50px;
+}
+
+#krunker {
+    border-color: #f48132;
+    background-color: #000000;
+    margin-bottom: 50px;
+}
+
+#krunker-home {
+    color: #ffffff;
+}
+
+#krunker-logo {
+    width: 80%;
+}
+
+#discord {
+    background: #5865f2;
+}
+
+#discord-logo {
+    background-color: #ffffff;
+    height: 100px;
+    border-radius: 100%;
+    border: solid #000000;
+}
+
+#links-discord {
+    display: flex;
+    gap: 50px;
+}
+
+#agario {
+    background-color: #e6e5e5;
+}
+
+#agario-logo {
+    height: 200px;
+}
+
+#netflix {
+    background-color: #e50913;
+}
+
+#netflix-logo {
+    width: 200px;
+    border-radius: 20% 5%;
+}
+
+#youtube {
+    background-color: #ffffff;
+}
